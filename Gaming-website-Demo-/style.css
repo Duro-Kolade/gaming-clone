@@ -1,0 +1,518 @@
+/* ----------------------before content-------------------------- */
+/* header {
+  margin-bottom: 2em;
+} */
+.back {
+  font-size: 1em;
+}
+.nav-bar {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+.nav-bar h1{
+  color: yellow;
+  font-weight: 900;
+  /* font-family: monospace; */
+}
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.poo li {
+  display: inline;
+  margin-left: 20px;
+}
+
+
+.poo2 li {
+  margin-left: 20px;
+  color: white;
+  display: inline;
+  padding: 20px;
+}
+
+.poo2 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.extra-games {
+  background-color: rgb(99, 99, 14);
+  margin-right: 10px;
+}
+
+.poo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em 0;
+  padding: 2em;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/Assasins-creed.jpg");
+  background-repeat: no-repeat;
+  filter: brightness(.4);
+}
+
+.hero-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 20%;
+  right: 20%;
+  color: white;
+}
+
+hr {
+  width: 50%;
+  margin: 45px auto;
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 1));
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  letter-spacing: 20px;
+  word-spacing: 10px;
+  z-index: 2;
+}
+
+button {
+  all: unset;
+  outline: 2px solid whitesmoke;
+  outline-offset: 3px;
+  border: 1px solid white;
+  padding: 20px 60px;
+  margin: 2em auto;
+  font-size: large;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  padding: 30px 70px;
+  font-weight: 900;
+  background: crimson;
+}
+
+
+/* ------------------------------header end-------------------------------- */
+
+/* ------------------------victor------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.gaming,
+.gaming-1 {
+  background: linear-gradient(to right, white, rgba(0, 0, 0, 0.788));
+}
+
+.gaming {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-left: 250px;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+  /* background: linear-gradient(to right, white, rgba(0, 0, 0, 0.788)); */
+  width: 60%;
+  transition: all 300ms ease-in-out;
+}
+
+.gaming-1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-right: 90px;
+  margin-left: 30px;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+  /* background: linear-gradient(to right, white, rgba(0, 0, 0, 0.788)); */
+  width: 60%;
+  transition: all 300ms ease-in-out;
+}
+
+.text {
+  width: 50%;
+}
+
+.text h2 {
+  color: goldenrod;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.desc p {
+  font-size: 1.5rem;
+}
+
+.image {
+  width: 40%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.gaming:hover {
+  width: 70%;
+}
+
+.gaming-1:hover {
+  width: 70%;
+}
+
+.games {
+  margin-top: 2em;
+}
+/* -----------------------------------chukwuemeka----------------------- */
+
+.section-two {
+  margin-bottom: 4em;
+}
+
+.nav-bar img {
+  width: 100px;
+}
+
+.game-pic1 img {
+  width: 100%;
+}
+
+.game-pic2 img {
+  width: 90%;
+}
+
+.game-text1 {
+  display: flex;
+  align-items: center;
+  padding: 1.7em;
+  text-align: center;
+  width: 70%;
+  min-width: 30%;
+  min-height: 30%;
+}
+
+.game-text1 h2 {
+  font-size: 5rem;
+  color: yellow;
+  letter-spacing: 10px;
+  min-width: 100px;
+}
+
+.game1 {
+  display: flex;
+  width: 100%;
+}
+
+.game-text2 h2 {
+  font-size: 5rem;
+  color: yellow;
+  letter-spacing: 5px;
+  margin-top: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.section-two span {
+  color: white;
+  display: inline;
+  font-size: 4.5rem;
+  font-family: "Gill Sans MT";
+}
+
+.game2 {
+  display: flex;
+  padding-left: 3em;
+}
+
+.game-text2 {
+  flex: 1;
+}
+
+.button2 {
+  all: unset;
+  outline: 2px solid whitesmoke;
+  color: yellow;
+  outline-offset: 3px;
+  border: 1px solid white;
+  padding: 20px 70px;
+  font-size: 2rem;
+  word-spacing: 1px;
+  letter-spacing: 12px;
+  text-align: center;
+  transition: all 300ms ease-in-out;
+}
+
+.button2:hover {
+  padding: 30px 110px;
+  font-weight: 900;
+  transition: all;
+  background-color: crimson;
+}
+
+.game-pic2 {
+  width: 100%;
+  flex: 2;
+}
+
+.game-pic2 img {
+  width: 100%;
+}
+
+/* ----------------------------------------- chukwuemeka's end------------------------ */
+
+/* ----------------------------------Louisa----------------------------------------- */
+
+.main {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  color: white;
+}
+
+.title h2 {
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 0.75em;
+  letter-spacing: 5px;
+}
+
+.title span {
+  color: yellow;
+}
+
+.grid {
+  display: flex;
+  width: 100%;
+}
+
+.grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 250ms ease-in-out;
+}
+
+.image1 {
+  flex: 1;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.hover-text {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 20%;
+  font-size: 3rem;
+  font-weight: 900;
+  opacity: 0;
+  letter-spacing: 5px;
+}
+
+.image1:hover img {
+  filter: brightness(0.3);
+}
+
+.image1:hover .hover-text {
+  opacity: 1;
+}
+.footer {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.856), rgb(107, 105, 105));
+  width: 100%;
+  margin-top: 25px;
+  color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.footer_text {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+.highlight {
+  color: yellow;
+  font-weight: 900;
+  font-size: 30px;
+  margin-right: 10px;
+  letter-spacing: 3px;
+}
+/* ----------------------------------victor's MQ ----------------------------- */
+
+/* @media (max-width: 1060px) and (min-width: 949px) {
+  .text h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 839px) {
+  .text h2 {
+    font-size: 1.7rem;
+  }
+} */
+
+@media (max-width: 840px) and (min-width: 320px) {
+
+  header{
+    margin-bottom: 5em;
+  }
+
+  .hero{
+    margin-top: 2em;
+  }
+
+  .gaming,
+  .gaming-1 {
+    align-items: center;
+    background: rgb(12, 12, 12);
+    box-shadow: 2px 5px 2px rgba(255, 255, 255, 0.484);
+    width: 80%;
+  }
+
+  .gaming {
+    margin: 2em auto;
+  }
+
+  .gaming-1 {
+    margin: 0 auto;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .grid {
+    flex-direction: column;
+    padding: 0 0.5em;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .image1 img {
+    filter: brightness(0.7);
+  }
+
+  .hover-text {
+    font-size: 2.5rem;
+    opacity: 1;
+  }
+  .title h2 {
+    font-size: 3em;
+  }
+
+  section {
+    margin-top: 3em;
+  }
+}
+
+/* ------------------------------ chukuwuemeka's MQ ----------------------------- */
+@media (max-width: 1290px) {
+  .game-text1 h2 {
+    font-size: 2rem;
+  }
+
+  .game1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .game2 {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+
+  .game-pic2 {
+    width: 100%;
+  }
+
+  .game-pic2 img {
+    width: 100%;
+    text-align: center;
+  }
+  .game-text2 h2,
+  .game-text2 span {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .game-text2 {
+    width: 100%;
+  }
+}
+
+
+/* -------------------------header MQ--------------- */
+@media(max-width: 498px) {
+  .hero-text h1 {
+      font-size: 1.5rem;
+  }
+
+  .nav-bar {
+      flex-direction: column;
+      width: 95%;
+  }
+
+
+  .hero {
+      width: 50%;
+  }
+
+  .hero img {
+      width: 50%;
+      background: none;
+      background-color: black;
+  }
+
+  .extra-games {
+      visibility: hidden;
+  }
+
+  .poo {
+      flex-direction: column;
+  }
+
+  ul {
+      display: flex;
+      flex-direction: column;
+  }
+
+  li {
+    padding: .75em;
+  }
+
+  span {
+      visibility: hidden;
+  }
+}
